@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="true" hasSequenceTrack="true" version="8">
+    <Resources>
+        <Resource path="MEF2C_significant_peaks.bed"/>
+        <Resource path="NDD_genes.bed"/>
+    </Resources>
+    <Panel name="Panel1">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrand="POSITIVE" visible="true"/>
+        <Track attributeKey="Chromosome Band" clazz="org.broad.igv.track.CytobandTrack" id="Chromosome Band" name="Chromosome Band" visible="true"/>
+        <Track attributeKey="MEF2C Peaks" color="255,0,0" colorScale="ContinuousColorScale;0.0;272.0;255,0,0;255,0,0" autoscale="false" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" height="60" id="MEF2C_significant_peaks.bed" name="MEF2C Significant Peaks" visible="true" windowFunction="count"/>
+        <Track attributeKey="NDD Genes" color="0,0,255" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" height="40" id="NDD_genes.bed" name="NDD Target Genes" visible="true"/>
+    </Panel>
+</Session>

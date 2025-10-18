@@ -1,0 +1,13 @@
+{
+    "alignment_summary_NEW": {
+        "total_passed": 37953736,
+        "total_failed": 0,
+        "secondary_passed": 0,
+        "secondary_failed": 0,
+        "supplementary_passed": 0,
+        "supplementary_failed": 0,
+        "duplicates_passed": 0,
+        "duplicates_failed": 0,
+        "flagstat_total": 37953736
+    }
+}

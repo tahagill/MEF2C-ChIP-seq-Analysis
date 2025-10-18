@@ -1,0 +1,7 @@
+"Cell_Type","Total_Peaks","Overlap_With_Microglia","Percent_Overlap"
+"Microglia (Your Data)",1258,NA,NA
+"Cardiomyocytes",7833,0,0
+"Lymphoblastoid",4325,2,0.16
+"Skeletal Myotubes",10475,4,0.32
+"Monocytes",19857,6,0.48
+"HepG2 Liver",26042,4,0.32

@@ -1,0 +1,149 @@
+{
+    "report_data_sources": {
+        "Samtools": {
+            "flagstat": {
+                "alignment_summary_NEW": "/home/yabanci/pheonix/MEF2C_ChIPseq/results/alignment_combined/alignment_summary_NEW.txt"
+            }
+        },
+        "Snippy": {
+            "snippy": {
+                "multiqc": "/home/yabanci/pheonix/MEF2C_ChIPseq/results/alignment_combined/multiqc.log"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "alignment_summary_NEW": {
+                "total_passed": 37953736,
+                "total_failed": 0,
+                "secondary_passed": 0,
+                "secondary_failed": 0,
+                "supplementary_passed": 0,
+                "supplementary_failed": 0,
+                "duplicates_passed": 0,
+                "duplicates_failed": 0,
+                "flagstat_total": 37953736
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "flagstat_total": {
+                "title": "M Reads",
+                "description": "Total reads in the bam file (millions)",
+                "min": 0,
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "hidden": true,
+                "namespace": "Samtools",
+                "rid": "mqc-generalstats-samtools-flagstat_total",
+                "scale": "GnBu",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 37.953736,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/usr/bin/multiqc results/alignment_combined/ -o results/alignment_combined/multiqc_final/",
+    "report_plot_data": {
+        "samtools-flagstat-dp": {
+            "plot_type": "beeswarm",
+            "samples": [
+                [
+                    "alignment_summary_NEW"
+                ],
+                [
+                    "alignment_summary_NEW"
+                ],
+                [
+                    "alignment_summary_NEW"
+                ]
+            ],
+            "datasets": [
+                [
+                    37.953736
+                ],
+                [
+                    37.953736
+                ],
+                [
+                    0.0
+                ]
+            ],
+            "categories": [
+                {
+                    "namespace": "",
+                    "title": "Total Reads",
+                    "description": "Total Reads",
+                    "max": 37.953736,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Total Passed QC",
+                    "description": "Total Passed QC",
+                    "max": 37.953736,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                },
+                {
+                    "namespace": "",
+                    "title": "Duplicates",
+                    "description": "Duplicates",
+                    "max": 37.953736,
+                    "min": 0.0,
+                    "suffix": "M reads",
+                    "decimalPlaces": 2,
+                    "bordercol": "rgb(55,126,184)"
+                }
+            ]
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_samtools_flagstat": {
+            "alignment_summary_NEW": {
+                "total_passed": 37953736,
+                "total_failed": 0,
+                "secondary_passed": 0,
+                "secondary_failed": 0,
+                "supplementary_passed": 0,
+                "supplementary_failed": 0,
+                "duplicates_passed": 0,
+                "duplicates_failed": 0,
+                "flagstat_total": 37953736
+            }
+        },
+        "multiqc_general_stats": {
+            "alignment_summary_NEW": {
+                "Samtools_mqc-generalstats-samtools-flagstat_total": 37953736
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/home/yabanci/pheonix/MEF2C_ChIPseq/results/alignment_combined"
+    ],
+    "config_analysis_dir": [
+        "results/alignment_combined/"
+    ],
+    "config_creation_date": "2025-10-10, 00:36 +03",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/usr/lib/python3/dist-packages/multiqc/utils",
+    "config_short_version": "1.18",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.18"
+}

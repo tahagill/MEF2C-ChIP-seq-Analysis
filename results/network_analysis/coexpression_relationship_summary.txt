@@ -1,0 +1,28 @@
+$Synaptic_Module
+$Synaptic_Module$Size
+[1] 110
+
+$Synaptic_Module$NDD_Genes
+[1] 5
+
+$Synaptic_Module$Description
+[1] "Coordinated synaptic organization complex"
+
+
+$Signaling_Module
+$Signaling_Module$Size
+[1] 97
+
+$Signaling_Module$NDD_Genes
+[1] 0
+
+$Signaling_Module$Description
+[1] "Cell signaling and survival pathways"
+
+
+$Key_Findings
+[1] "ANK3 coordinates synaptic NDD genes in functional module"
+[2] "Multiple NDD genes cluster in same network community"    
+[3] "Hub genes span multiple functional categories"           
+[4] "Network structure validates biological relationships"    
+

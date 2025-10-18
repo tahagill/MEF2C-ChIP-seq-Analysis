@@ -1,0 +1,253 @@
+{
+    "report_data_sources": {
+        "Bowtie 2 / HiSAT2": {
+            "all_sections": {
+                "SRR35220287_alignment_stats": "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220287_alignment_stats.txt",
+                "SRR35220283_alignment_stats": "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220283_alignment_stats.txt",
+                "SRR35220290_alignment_stats": "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220290_alignment_stats.txt",
+                "SRR35220286_alignment_stats": "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220286_alignment_stats.txt",
+                "SRR35220291_alignment_stats": "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220291_alignment_stats.txt",
+                "SRR35220282_alignment_stats": "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220282_alignment_stats.txt"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "SRR35220287_alignment_stats": {
+                "total_reads": 17098511,
+                "paired_total": 17098511,
+                "paired_aligned_none": 604461,
+                "paired_aligned_one": 14407908,
+                "paired_aligned_multi": 2086142,
+                "overall_alignment_rate": 96.46,
+                "paired_aligned_mate_none_halved": 604461
+            },
+            "SRR35220283_alignment_stats": {
+                "total_reads": 17602721,
+                "paired_total": 17602721,
+                "paired_aligned_none": 1016548,
+                "paired_aligned_one": 14268114,
+                "paired_aligned_multi": 2318059,
+                "overall_alignment_rate": 94.23,
+                "paired_aligned_mate_none_halved": 1016548
+            },
+            "SRR35220290_alignment_stats": {
+                "total_reads": 16836272,
+                "paired_total": 16836272,
+                "paired_aligned_none": 391857,
+                "paired_aligned_one": 15056594,
+                "paired_aligned_multi": 1387821,
+                "overall_alignment_rate": 97.67,
+                "paired_aligned_mate_none_halved": 391857
+            },
+            "SRR35220286_alignment_stats": {
+                "total_reads": 62649596,
+                "paired_total": 62649596,
+                "paired_aligned_none": 1326134,
+                "paired_aligned_one": 55840029,
+                "paired_aligned_multi": 5483433,
+                "overall_alignment_rate": 97.88,
+                "paired_aligned_mate_none_halved": 1326134
+            },
+            "SRR35220291_alignment_stats": {
+                "total_reads": 11435761,
+                "paired_total": 11435761,
+                "paired_aligned_none": 316649,
+                "paired_aligned_one": 9736960,
+                "paired_aligned_multi": 1382152,
+                "overall_alignment_rate": 97.23,
+                "paired_aligned_mate_none_halved": 316649
+            },
+            "SRR35220282_alignment_stats": {
+                "total_reads": 14854895,
+                "paired_total": 14854895,
+                "paired_aligned_none": 592085,
+                "paired_aligned_one": 12620011,
+                "paired_aligned_multi": 1642799,
+                "overall_alignment_rate": 96.01,
+                "paired_aligned_mate_none_halved": 592085
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "overall_alignment_rate": {
+                "title": "% Aligned",
+                "description": "overall alignment rate",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Bowtie 2 / HiSAT2",
+                "rid": "mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/usr/bin/multiqc /home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned -o /home/yabanci/pheonix/MEF2C_ChIPseq/results/alignment_qc -n alignment_multiqc_report",
+    "report_plot_data": {
+        "bowtie2_pe_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "SRR35220282_alignment_stats",
+                    "SRR35220283_alignment_stats",
+                    "SRR35220286_alignment_stats",
+                    "SRR35220287_alignment_stats",
+                    "SRR35220290_alignment_stats",
+                    "SRR35220291_alignment_stats"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "PE mapped uniquely",
+                        "data": [
+                            12620011.0,
+                            14268114.0,
+                            55840029.0,
+                            14407908.0,
+                            15056594.0,
+                            9736960.0
+                        ],
+                        "color": "#20568f"
+                    },
+                    {
+                        "name": "PE multimapped",
+                        "data": [
+                            1642799.0,
+                            2318059.0,
+                            5483433.0,
+                            2086142.0,
+                            1387821.0,
+                            1382152.0
+                        ],
+                        "color": "#f7a35c"
+                    },
+                    {
+                        "name": "PE neither mate aligned",
+                        "data": [
+                            592085.0,
+                            1016548.0,
+                            1326134.0,
+                            604461.0,
+                            391857.0,
+                            316649.0
+                        ],
+                        "color": "#981919"
+                    }
+                ]
+            ],
+            "config": {
+                "ylab": "# Reads",
+                "cpswitch_counts_label": "Number of Reads",
+                "id": "bowtie2_pe_plot",
+                "title": "Bowtie 2: PE Alignment Scores"
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_bowtie2": {
+            "SRR35220287_alignment_stats": {
+                "total_reads": 17098511,
+                "paired_total": 17098511,
+                "paired_aligned_none": 604461,
+                "paired_aligned_one": 14407908,
+                "paired_aligned_multi": 2086142,
+                "overall_alignment_rate": 96.46,
+                "paired_aligned_mate_none_halved": 604461
+            },
+            "SRR35220283_alignment_stats": {
+                "total_reads": 17602721,
+                "paired_total": 17602721,
+                "paired_aligned_none": 1016548,
+                "paired_aligned_one": 14268114,
+                "paired_aligned_multi": 2318059,
+                "overall_alignment_rate": 94.23,
+                "paired_aligned_mate_none_halved": 1016548
+            },
+            "SRR35220290_alignment_stats": {
+                "total_reads": 16836272,
+                "paired_total": 16836272,
+                "paired_aligned_none": 391857,
+                "paired_aligned_one": 15056594,
+                "paired_aligned_multi": 1387821,
+                "overall_alignment_rate": 97.67,
+                "paired_aligned_mate_none_halved": 391857
+            },
+            "SRR35220286_alignment_stats": {
+                "total_reads": 62649596,
+                "paired_total": 62649596,
+                "paired_aligned_none": 1326134,
+                "paired_aligned_one": 55840029,
+                "paired_aligned_multi": 5483433,
+                "overall_alignment_rate": 97.88,
+                "paired_aligned_mate_none_halved": 1326134
+            },
+            "SRR35220291_alignment_stats": {
+                "total_reads": 11435761,
+                "paired_total": 11435761,
+                "paired_aligned_none": 316649,
+                "paired_aligned_one": 9736960,
+                "paired_aligned_multi": 1382152,
+                "overall_alignment_rate": 97.23,
+                "paired_aligned_mate_none_halved": 316649
+            },
+            "SRR35220282_alignment_stats": {
+                "total_reads": 14854895,
+                "paired_total": 14854895,
+                "paired_aligned_none": 592085,
+                "paired_aligned_one": 12620011,
+                "paired_aligned_multi": 1642799,
+                "overall_alignment_rate": 96.01,
+                "paired_aligned_mate_none_halved": 592085
+            }
+        },
+        "multiqc_general_stats": {
+            "SRR35220287_alignment_stats": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 96.46
+            },
+            "SRR35220283_alignment_stats": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 94.23
+            },
+            "SRR35220290_alignment_stats": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 97.67
+            },
+            "SRR35220286_alignment_stats": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 97.88
+            },
+            "SRR35220291_alignment_stats": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 97.23
+            },
+            "SRR35220282_alignment_stats": {
+                "Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate": 96.01
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned"
+    ],
+    "config_analysis_dir": [
+        "/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned"
+    ],
+    "config_creation_date": "2025-10-07, 18:28 +03",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/usr/lib/python3/dist-packages/multiqc/utils",
+    "config_short_version": "1.18",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.18"
+}

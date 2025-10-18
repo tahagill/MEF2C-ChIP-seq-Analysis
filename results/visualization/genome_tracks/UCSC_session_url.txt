@@ -1,0 +1,1 @@
+https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr10:60026298-60733490&hgct_customText=track%20name=%22MEF2C%20Peaks%22%20description=%22MEF2C%20Significant%20Peaks%22%20visibility=2%20color=255,0,0

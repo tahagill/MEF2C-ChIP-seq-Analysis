@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR35220292_2	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220292_2_fastqc.zip
+FastQC	all_sections	SRR35220289_2	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220289_2_fastqc.zip
+FastQC	all_sections	SRR35220284_2	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220284_2_fastqc.zip
+FastQC	all_sections	SRR35220288_1	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220288_1_fastqc.zip
+FastQC	all_sections	SRR35220289_1	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220289_1_fastqc.zip
+FastQC	all_sections	SRR35220284_1	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220284_1_fastqc.zip
+FastQC	all_sections	SRR35220288_2	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220288_2_fastqc.zip
+FastQC	all_sections	SRR35220292_1	/home/yabanci/pheonix/MEF2C_ChIPseq/results/qc_new/SRR35220292_1_fastqc.zip

@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+Bowtie 2 / HiSAT2	all_sections	SRR35220287_alignment_stats	/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220287_alignment_stats.txt
+Bowtie 2 / HiSAT2	all_sections	SRR35220283_alignment_stats	/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220283_alignment_stats.txt
+Bowtie 2 / HiSAT2	all_sections	SRR35220290_alignment_stats	/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220290_alignment_stats.txt
+Bowtie 2 / HiSAT2	all_sections	SRR35220286_alignment_stats	/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220286_alignment_stats.txt
+Bowtie 2 / HiSAT2	all_sections	SRR35220291_alignment_stats	/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220291_alignment_stats.txt
+Bowtie 2 / HiSAT2	all_sections	SRR35220282_alignment_stats	/home/yabanci/pheonix/MEF2C_ChIPseq/data/processed/aligned/SRR35220282_alignment_stats.txt

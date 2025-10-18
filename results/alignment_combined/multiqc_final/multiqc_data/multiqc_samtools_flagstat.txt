@@ -1,0 +1,2 @@
+Sample	total_passed	total_failed	secondary_passed	secondary_failed	supplementary_passed	supplementary_failed	duplicates_passed	duplicates_failed	flagstat_total
+alignment_summary_NEW	37953736	0	0	0	0	0	0	0	37953736

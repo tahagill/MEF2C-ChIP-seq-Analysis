@@ -1,0 +1,49 @@
+# ===== LARGE SEQUENCING DATA =====
+data/raw_sra/
+*.sra
+
+data/raw/
+*.fastq
+*.fq
+
+data/processed/trimmed/
+*.fq
+
+data/processed/aligned/*.bam
+data/processed/aligned/*.bai
+
+*.sam
+
+# ===== GENOME REFERENCES =====
+resources/genomes/
+*.fa
+*.fa.fai
+*.bt2
+*.zip
+
+# ===== MULTIQC RAW DATA =====
+results/alignment_combined/multiqc_data_1/
+results/qc_combined/raw_multiqc/multiqc_data_1/
+results/qc_combined/trimmed_multiqc/multiqc_data_1/
+results/qc/multiqc_data/
+results/qc_combined/raw_multiqc/multiqc_plots_1/
+results/qc_combined/trimmed_multiqc/multiqc_plots_1/
+
+# ===== LOGS =====
+logs/
+*.log
+
+# ===== TEMPORARY FILES =====
+*.tmp
+*.temp
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+*~
+
+# ===== EDITOR FILES =====
+.vscode/
+.idea/
+*.swp
+*.swo

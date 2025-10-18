@@ -1,0 +1,5 @@
+"Gene","Chromosome","Gene_Start","Gene_End","Nearby_MEF2C_Peaks","Evidence_Strength"
+"ANK3","chr10",60026298,60733490,4,"Very Strong"
+"ARID1B","chr6",156776020,157210779,2,"Strong"
+"NRXN1","chr2",49918503,51082864,1,"Strong"
+"CACNB2","chr10",18140424,18543557,2,"Medium"

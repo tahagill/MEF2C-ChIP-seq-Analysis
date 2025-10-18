@@ -1,0 +1,75 @@
+=== ALIGNMENT VALIDATION REPORT ===
+Generated: Tue Oct  7 06:26:44 PM +03 2025
+====================================
+
+=== SRR35220282 ===
+BAM index: OK
+Alignment stats:
+96.01% overall alignment rate
+BAM stats:
+29709790 + 0 in total (QC-passed reads + QC-failed reads)
+29709790 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 558M
+
+=== SRR35220283 ===
+BAM index: OK
+Alignment stats:
+94.23% overall alignment rate
+BAM stats:
+35205442 + 0 in total (QC-passed reads + QC-failed reads)
+35205442 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 796M
+
+=== SRR35220286 ===
+BAM index: OK
+Alignment stats:
+97.88% overall alignment rate
+BAM stats:
+125299192 + 0 in total (QC-passed reads + QC-failed reads)
+125299192 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 3.2G
+
+=== SRR35220287 ===
+BAM index: OK
+Alignment stats:
+96.46% overall alignment rate
+BAM stats:
+34197022 + 0 in total (QC-passed reads + QC-failed reads)
+34197022 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 1.4G
+
+=== SRR35220290 ===
+BAM index: OK
+Alignment stats:
+97.67% overall alignment rate
+BAM stats:
+33672544 + 0 in total (QC-passed reads + QC-failed reads)
+33672544 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 1.2G
+
+=== SRR35220291 ===
+BAM index: OK
+Alignment stats:
+97.23% overall alignment rate
+BAM stats:
+22871522 + 0 in total (QC-passed reads + QC-failed reads)
+22871522 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 992M

@@ -1,0 +1,50 @@
+MEF2C ChIP-seq TARGET GENES REPORT
+===================================
+Generated: Wed Oct  8 18:55:48 2025 
+
+EXPERIMENT SUMMARY:
+-------------------
+Total MEF2C binding sites lost in KO: 1258 
+Unique genes targeted: 1148 
+
+GENOMIC DISTRIBUTION:
+---------------------
+3' UTR                   :   19 peaks (  1.5%)
+5' UTR                   :    2 peaks (  0.2%)
+Distal Intergenic        :  341 peaks ( 27.1%)
+Exon                     :   38 peaks (  3.0%)
+Intron                   :  638 peaks ( 50.7%)
+Promoter                 :  220 peaks ( 17.5%)
+
+TOP 20 MEF2C TARGET GENES:
+---------------------------
+ANK3                :  4 binding sites
+BCL2                :  4 binding sites
+ASAP2               :  3 binding sites
+CPED1               :  3 binding sites
+DSCAM               :  3 binding sites
+FGD6                :  3 binding sites
+KIF16B              :  3 binding sites
+LINC02997           :  3 binding sites
+LOC105370954        :  3 binding sites
+LOC105373220        :  3 binding sites
+LOC105374140        :  3 binding sites
+LPP                 :  3 binding sites
+PTPRG               :  3 binding sites
+SLC7A8              :  3 binding sites
+AAK1                :  2 binding sites
+ACVR2A              :  2 binding sites
+ADAM23              :  2 binding sites
+ADGRD1              :  2 binding sites
+ANKRD11             :  2 binding sites
+ANKRD18DP           :  2 binding sites
+
+KEY BIOLOGICAL INSIGHTS:
+------------------------
+• 220 promoter peaks → DIRECT transcriptional regulation
+• 638 intronic peaks → Potential enhancer regulation
+• 341 intergenic peaks → Long-range regulation
+
+SAMPLE OF MEF2C TARGET GENES:
+-----------------------------
+LOC107986287, DSCAM-AS1, MIR2355, DLEU1, LOC105371296, AP3M2, PRKCE, LEF1, SRP68, SMOC2, PWP1, LOC107984282, LOC105371648, GTF3A, JARID2 

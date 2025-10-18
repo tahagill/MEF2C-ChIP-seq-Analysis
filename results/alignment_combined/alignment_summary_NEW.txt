@@ -1,0 +1,52 @@
+=== NEW SAMPLES ALIGNMENT VALIDATION REPORT ===
+Generated: Wed Oct  8 09:12:37 AM +03 2025
+Samples: SRR35220292 SRR35220288 SRR35220289 SRR35220284
+==============================================
+
+=== SRR35220292 ===
+BAM index: OK
+Alignment stats:
+97.94% overall alignment rate
+BAM stats:
+37953736 + 0 in total (QC-passed reads + QC-failed reads)
+37953736 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 1.2G
+
+=== SRR35220288 ===
+BAM index: OK
+Alignment stats:
+97.68% overall alignment rate
+BAM stats:
+34644206 + 0 in total (QC-passed reads + QC-failed reads)
+34644206 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 1009M
+
+=== SRR35220289 ===
+BAM index: OK
+Alignment stats:
+97.21% overall alignment rate
+BAM stats:
+39634274 + 0 in total (QC-passed reads + QC-failed reads)
+39634274 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 1.5G
+
+=== SRR35220284 ===
+BAM index: OK
+Alignment stats:
+91.68% overall alignment rate
+BAM stats:
+43033500 + 0 in total (QC-passed reads + QC-failed reads)
+43033500 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+File size: 825M

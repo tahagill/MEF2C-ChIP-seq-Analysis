@@ -1,0 +1,43 @@
+MEF2C TARGET GENE PPI NETWORK ANALYSIS
+=======================================
+
+Input genes: 1148 
+Genes mapped to STRING: 781 
+High-confidence interactions: 4340 
+Network nodes: 719 
+Network edges: 4340 
+Network density: 0.0168 
+
+TOP HUB GENES:
+     Gene Degree Betweenness Eigen_Centrality Community
+1   CASP3     90   20650.069        0.8926629         5
+2  CREBBP     88   20429.677        0.7776608         5
+3     UBC     86   13890.183        0.6144035         5
+4   STAT3     80   14193.235        1.0000000         5
+5   PTK2B     60    8592.636        0.4692752        11
+6   IGF1R     58    6203.778        0.7221535        11
+7     CBL     56    7284.130        0.5356013        11
+8      AR     56    9045.732        0.7120006         5
+9    IRS1     52    6676.487        0.5169722        11
+10  SMAD3     52    4707.235        0.7465282         5
+
+FUNCTIONAL MODULES (Communities):
+# A tibble: 22 × 4
+   Community  Size Top_Genes                 Mean_Degree
+       <dbl> <int> <chr>                           <dbl>
+ 1         7   110 NRXN1, GRIA1, GNAI1             14.8 
+ 2         5    97 CASP3, CREBBP, UBC              18.5 
+ 3        11    75 PTK2B, IGF1R, CBL               15.6 
+ 4         9    59 FMN1, AGFG1, EXOC4              11.3 
+ 5         1    42 DPY19L2, SPATA16, MFSD14A        6.76
+ 6         6    41 DDX10, PWP1, KRR1               10.8 
+ 7        10    41 MYO1E, PTPN14, PTPRA             7.46
+ 8         8    40 TFRC, KITLG, CD86               14.8 
+ 9         2    38 SMARCA2, ATRX, TAF1L            14.2 
+10        12    33 NEUROD1, MAFB, WDR72             6.67
+# ℹ 12 more rows
+
+ANK3 NETWORK PROPERTIES:
+Degree: 30 
+Betweenness: 1902.05 
+Community: 7 
