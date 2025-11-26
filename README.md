@@ -1,6 +1,6 @@
 # MEF2C ChIP-seq Analysis in Human Microglia
 
-Computational pipeline for analyzing MEF2C transcription factor binding patterns in iPSC-derived microglia. This repository contains all code and documentation from my undergraduate thesis investigating cell-type specific MEF2C regulatory programs and their relevance to neurodevelopmental disorders.
+Computational pipeline for analyzing MEF2C transcription factor binding patterns in iPSC-derived microglia.
 
 ## Background
 
